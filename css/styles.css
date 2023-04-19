@@ -231,27 +231,29 @@ body {
 
 /*  About */
 .about {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding: 96px 16px;
+  /* padding-top: 120px;
+  padding-bottom: 120px; */
 }
 
 .about-list {
-  display: flex;
+  /* display: flex;
   align-items: center;
-  gap: 24px;
+  gap: 24px; */
 }
 
 .about-item {
-  width: 264px;
+  width: 396px;
+  /* width: 264px; */
 }
 
 .about-item::before {
-  display: block;
+  /* display: block;
   content: "";
   height: 112px;
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center; */
 }
 
 .icon-antenna::before {
@@ -272,22 +274,34 @@ body {
 
 .about-title {
   font-style: normal;
-  font-weight: 500;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  /* font-weight: 500;
   font-size: 20px;
-  line-height: 1.2;
+  line-height: 1.2; */
   letter-spacing: 0.02em;
   margin-top: 8px;
   margin-bottom: 8px;
   color: var(--sekond-title-color);
 }
+
 .about-text {
-  font-weight: 400;
+  font-style: normal;
+  font-weight: 500;
+  /* font-weight: 400; */
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--text-color);
 }
+
 /* What are we doing */
+
+.doing {
+  display: none;
+}
 
 .doing {
   padding-bottom: 120px;
@@ -958,6 +972,14 @@ body {
   .container {
     width: 768px;
   }
+
+  .about-item {
+    width: 356px;
+  }
+
+  .about-title {
+    text-align: left;
+  }
   .team-list li {
     flex-basis: calc((100% - 36px) / 2);
   }
@@ -973,6 +995,44 @@ body {
 @media screen and (min-width: 1158px) {
   .container {
     width: 1158px;
+  }
+
+  .about {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  .about-list {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+  }
+
+  .about-item {
+    width: 264px;
+  }
+
+  .about-item::before {
+    display: block;
+    content: "";
+    height: 112px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .about-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+  }
+
+  .about-text {
+    font-weight: 400;
+  }
+
+  .doing {
+    display: block;
   }
 
   .team {
