@@ -187,21 +187,20 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  max-width: 1440px;
-  padding: 188px 0;
-  height: 600px;
-  max-width: 1400px;
+  max-width: 460px;
+  padding: 112px 0;
+  height: 432px;
   margin: 0 auto;
 }
 
 .hero-title {
   font-weight: 700;
-  font-size: 56px;
-  line-height: 1.07;
+  font-size: 36px;
+  line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--main-title-color);
-  width: 496px;
+  width: 320px;
   margin: 0 auto;
 }
 
@@ -220,7 +219,7 @@ body {
   margin: 0 auto;
   display: flex;
   padding: 16px 32px;
-  margin-top: 48px;
+  margin-top: 72px;
   transition: background-color var(--transition);
 }
 
@@ -351,11 +350,12 @@ body {
 .team-list {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   align-items: center;
-  gap: 24px;
+  gap: 72px;
 }
 
-.team-list li {
+.team-list {
   /* width: calc((100% - 72px) / 4); */
   flex-basis: 100%;
 }
@@ -971,13 +971,27 @@ body {
   .container {
     width: 428px;
   }
-  .about-list {
-  }
 }
 
 @media screen and (min-width: 768px) {
   .container {
     width: 768px;
+  }
+
+  .hero {
+    max-width: 768px;
+    padding: 112px 0;
+    height: 436px;
+  }
+
+  .hero-title {
+    font-size: 56px;
+    line-height: 1.07;
+    width: 496px;
+  }
+
+  .hero-btn {
+    margin-top: 36px;
   }
 
   .about-list {
@@ -992,7 +1006,8 @@ body {
   .about-title {
     text-align: left;
   }
-  .team-list li {
+  .team-list {
+    gap: 64px 24px;
     flex-basis: calc((100% - 36px) / 2);
   }
 
@@ -1008,6 +1023,15 @@ body {
   .container {
     width: 1158px;
   }
+  .hero {
+    max-width: 1440px;
+    padding: 188px 0;
+    height: 600px;
+  }
+
+  .hero-btn {
+    margin-top: 48px;
+  }
 
   .about {
     padding-top: 120px;
@@ -1015,7 +1039,6 @@ body {
   }
 
   .about-list {
-    display: flex;
     align-items: center;
     gap: 24px;
   }
@@ -1055,7 +1078,8 @@ body {
     padding-bottom: 120px;
   }
 
-  .team-list li {
+  .team-list {
+    gap: 24px;
     flex-basis: calc((100% - 72px) / 4);
   }
 
