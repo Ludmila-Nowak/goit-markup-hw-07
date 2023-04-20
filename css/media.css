@@ -1,0 +1,147 @@
+@media screen and (min-width: 428px) {
+  .container {
+    width: 428px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+
+  .hero {
+    max-width: 768px;
+    padding: 112px 0;
+    height: 436px;
+  }
+
+  .hero-title {
+    font-size: 56px;
+    line-height: 1.07;
+    width: 496px;
+  }
+
+  .hero-btn {
+    margin-top: 36px;
+  }
+
+  .about-list {
+    gap: 72px 24px;
+  }
+
+  .about-item {
+    width: 356px;
+    flex-basis: calc((100% - 24px) / 2);
+  }
+
+  .about-title {
+    text-align: left;
+  }
+  .team-list {
+    gap: 64px 24px;
+  }
+  .team-item {
+    flex-basis: calc((100% - 24px) / 2);
+  }
+
+  .customers-list {
+    gap: 72px 24px;
+  }
+  .customers-item {
+    flex-basis: calc((100% - 48px) / 3);
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .container {
+    width: 1158px;
+  }
+
+  .hero {
+    max-width: 1440px;
+    padding: 188px 0;
+    height: 600px;
+  }
+
+  .hero-btn {
+    margin-top: 48px;
+  }
+
+  .about {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  .about-list {
+    align-items: center;
+    gap: 24px;
+  }
+
+  .about-item {
+    width: 264px;
+    flex-basis: calc((100% - 72px) / 4);
+  }
+
+  .about-item::before {
+    display: block;
+    content: "";
+    height: 112px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .about-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    margin-top: 8px;
+  }
+
+  .about-text {
+    font-weight: 400;
+    width: 264px;
+  }
+
+  .doing {
+    display: block;
+  }
+
+  .team {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  .team-list {
+    gap: 24px;
+  }
+
+  .team-item {
+    flex-basis: calc((100% - 72px) / 4);
+  }
+
+  .customers {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  .customers-list {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+  }
+
+  .customers-item {
+    flex-basis: calc((100% - 120px) / 6);
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1158px) {
+  .team > .container {
+    width: 582px;
+  }
+
+  .customers > .container {
+    width: 582px;
+  }
+}
