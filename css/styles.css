@@ -493,18 +493,21 @@ body {
 }
 
 .footer-wrap {
-  /* display: flex;
+  display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 72px; */
-  display: inline-block;
-  justify-content: center;
+  /* gap: 72px; */
   text-align: center;
 }
-
-.footer-box {
-  margin-right: 120px;
+.footer-container {
   text-align: center;
+}
+.footer-box {
+  display: block;
+  justify-content: center;
+  /* margin-right: 120px; */
+  text-align: center;
+  margin-bottom: 72px;
 }
 
 .footer-logo {
@@ -536,10 +539,20 @@ body {
   color: var(--footer-text-color);
   margin: 16px 0 0 0;
   width: 268px;
-  text-align: center;
+  text-align: left;
   /* width: 264px; */
 }
 .footer-soc-box {
+  display: inline-block;
+  justify-content: center;
+  /* margin-right: 120px; */
+  text-align: center;
+  margin-bottom: 72px;
+  /* display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 72px;
+  text-align: center; */
   width: 208px;
   text-align: center;
 }
@@ -586,6 +599,15 @@ body {
   /* margin-left: 80px; */
 }
 
+.footer-title-subscribe {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--main-title-color);
+  margin-bottom: 16px;
+}
+
 .footer-form {
   /* display: flex; */
   justify-content: center;
@@ -593,7 +615,7 @@ body {
 }
 
 .footer-input {
-  /* width: 264px; */
+  width: 264px;
   width: 398px;
   height: 40px;
   border: 1px solid var(--btn-one-color);
@@ -610,7 +632,7 @@ body {
   font-weight: 400;
   font-size: 12px;
   line-height: 2;
-  /* display: flex; */
+  display: flex;
   align-items: center;
   letter-spacing: 0.04em;
   color: var(--btn-one-color);
@@ -624,6 +646,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 16px;
 }
 
 .footer-form-btn {

@@ -50,6 +50,61 @@
   .customers-item {
     flex-basis: calc((100% - 48px) / 3);
   }
+  .footer-wrap {
+    display: block;
+    flex-wrap: unset;
+    text-align: left;
+  }
+  .footer-container {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    margin-bottom: 72px;
+  }
+  .footer-box {
+    display: block;
+    margin-left: 108px;
+    text-align: left;
+  }
+  .footer-logo {
+    text-align: left;
+  }
+  .footer-text {
+    width: 264px;
+  }
+  .footer-soc-box {
+    align-items: left;
+    margin-bottom: 16px;
+  }
+
+  .footer-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Subscribe {
+    display: block;
+    text-align: left;
+    margin-bottom: 16px;
+  }
+  .footer-title-subscribe {
+    margin-left: 108px;
+    margin-bottom: 16px;
+  }
+
+  .footer-form {
+    display: inline-flex;
+    margin-left: 108px;
+    align-items: center;
+    gap: 24px;
+  }
+  .footer-input {
+    width: 264px;
+  }
+  .wrap-btn {
+    margin-top: unset;
+  }
 }
 
 @media screen and (min-width: 1158px) {
