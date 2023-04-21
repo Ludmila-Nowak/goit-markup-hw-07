@@ -57,9 +57,9 @@
   }
   .footer-container {
     display: flex;
-    align-items: center;
+    align-items: unset;
     gap: 24px;
-    margin-bottom: 72px;
+    /* margin-bottom: 72px; */
   }
   .footer-box {
     display: block;
