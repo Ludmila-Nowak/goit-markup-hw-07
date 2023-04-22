@@ -197,30 +197,26 @@
 
   .footer-wrap {
     display: flex;
-    flex-wrap: unset;
   }
-
   .footer-container {
     gap: unset;
   }
   .footer-box {
     margin-right: 120px;
+    margin-left: 0;
   }
 
   .footer-text {
     width: 264px;
   }
-
-  .footer-title {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--main-title-color);
-    margin-bottom: 16px;
+  .footer-soc-box {
+    display: block;
   }
 
   .Subscribe {
+    /* margin-left: 80px; */
+  }
+  .footer-title-subscribe {
     margin-left: 80px;
   }
 
@@ -228,12 +224,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 80px;
+    gap: unset;
   }
 
   .footer-input {
     width: 264px;
     margin-right: 24px;
   }
+
   .wrap-btn {
     display: flex;
     justify-content: center;
