@@ -2,6 +2,13 @@
   .container {
     width: 428px;
   }
+  .mobile-tel {
+    font-size: 36px;
+    line-height: 1.11;
+  }
+  .mobile-soc-list {
+    gap: 56px;
+  }
 
   .hero-title {
     font-size: 36px;
