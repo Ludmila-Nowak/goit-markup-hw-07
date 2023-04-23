@@ -57,16 +57,16 @@
             </li>
           </ul>
         </address>
-        <button type="button" class="mobile-open-btn">
+        <button class="mobile-open-btn" data-menu-open type="button">
           <svg class="mobile-open-icon" width="32" height="22">
             <use href="./images/icons.svg#icon-hamburger"></use>
           </svg>
         </button>
       </div>
 
-      <div class="mobile-menu">
+      <div class="mobile-menu is-hidden" data-menu>
         <div>
-          <button type="button" data-modal-close class="mobile-close-btn">
+          <button type="button" data-menu-close class="mobile-close-btn">
             <svg class="mobile-close-icon" width="8" height="8">
               <use href="./images/icons.svg#icon-close-black-18dp-2-1"></use>
             </svg>
@@ -195,6 +195,7 @@
               <img
                 src="./images/computer.jpg"
                 alt="computer"
+                srcset="./images/computer-2x.jpg"
                 width="360"
                 height="300"
               />
@@ -203,6 +204,7 @@
               <img
                 src="./images/aplication.jpg"
                 alt="aplication"
+                srcset="./images/aplication-2x.jpg"
                 width="360"
                 height="300"
               />
@@ -211,6 +213,7 @@
               <img
                 src="./images/phone.jpg"
                 alt="phone"
+                srcset="./images/phone-2x.jpg"
                 width="360"
                 height="300"
               />
@@ -229,6 +232,7 @@
               <img
                 src="./images/product-designer.jpg"
                 alt="photo of the product designer"
+                srcset="./images/product-designer-2x.jpg 2x"
                 width="264"
                 height="260"
               />
@@ -271,6 +275,7 @@
               <img
                 src="./images/fronted-developer.jpg"
                 alt="photo of the fronted developer"
+                srcset="./images/fronted-developer-2x.jpg 2x"
                 width="264"
                 height="260"
               />
@@ -313,6 +318,7 @@
               <img
                 src="./images/marketing.jpg"
                 alt="photo of the marketing"
+                srcset="./images/marketing-2x.jpg 2x"
                 width="264"
                 height="260"
               />
@@ -355,6 +361,7 @@
               <img
                 src="./images/ui-designer.jpg"
                 alt="photo of the ui designer"
+                srcset="./images/ui-designer-2x.jpg 2x"
                 width="264"
                 height="260"
               />
@@ -618,5 +625,6 @@
       </div>
     </div>
     <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
   </body>
 </html>

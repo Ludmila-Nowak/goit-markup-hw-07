@@ -15,6 +15,17 @@
     line-height: 1.11;
     width: 320px;
   }
+  .hero {
+    background-image: var(--bg-gradient), url(../images/hero-tab.jpg);
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .box {
+      background-image: var(--bg-gradient), url(../images/hero-tab-2x.jpg);
+    }
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -79,9 +90,7 @@
   }
 
   .header-adress-list {
-    /* display: flex; */
     align-items: center;
-    /* gap: 40px; */
   }
 
   .header-contact {
@@ -90,9 +99,6 @@
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
-    /* font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em; */
     color: var(--text-color);
     transition: color var(--transition);
     margin-bottom: 12px;
@@ -111,6 +117,18 @@
     max-width: 768px;
     padding: 112px 0;
     height: 436px;
+  }
+
+  .hero {
+    background-image: var(--bg-gradient), url(../images/hero-desc.jpg);
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .box {
+      background-image: var(--bg-gradient), url(../images/hero-desc-2x.jpg);
+    }
   }
 
   .hero-title {
@@ -157,7 +175,6 @@
     display: flex;
     align-items: unset;
     gap: 24px;
-    /* margin-bottom: 72px; */
   }
   .footer-box {
     display: block;
@@ -336,9 +353,6 @@
     display: block;
   }
 
-  .subscribe {
-    /* margin-left: 80px; */
-  }
   .footer-title-subscribe {
     margin-left: 80px;
   }
