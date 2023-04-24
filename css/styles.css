@@ -199,7 +199,6 @@ body {
 }
 .mobile-soc-list {
   display: flex;
-  justify-content: center;
   gap: 30px;
 }
 .mobile-soc-item {
@@ -236,14 +235,13 @@ body {
   background-size: cover;
   max-width: 460px;
   padding: 112px 0;
-  height: 432px;
   margin: 0 auto;
 }
 
 @media (min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
-  .box {
+  .hero {
     background-image: var(--bg-gradient), url(../images/hero-tel-2x.jpg);
   }
 }
@@ -285,7 +283,7 @@ body {
 
 /*  About */
 .about {
-  padding: 96px 16px;
+  padding: 96px 0px;
 }
 
 .about-list {
@@ -487,7 +485,7 @@ body {
 
 .customers-item {
   height: 88px;
-  flex-basis: calc((100% - 16px) / 2);
+  width: 191px;
 }
 
 .customers-link {
@@ -830,9 +828,12 @@ body {
   background-color: rgba(46, 47, 66, 0.4);
   transition: opacity var(--transition), visibility var(--transition);
 }
+
 .modal {
-  width: 408px;
-  min-height: 576px;
+  width: 95%;
+  height: 95%;
+  max-height: 524px;
+  overflow: scroll;
   background-color: #fcfcfc;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
     0px 2px 1px rgba(0, 0, 0, 0.2);
