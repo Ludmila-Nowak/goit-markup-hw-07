@@ -703,8 +703,6 @@ body {
 .portfolio {
   padding-top: 48px;
   padding-bottom: 52px;
-  /* padding-top: 96px;
-  padding-bottom: 120px; */
 }
 
 /*  Filter */
@@ -717,9 +715,6 @@ body {
   align-items: center;
   text-align: center;
   gap: 16px 24px;
-  justify-content: center;
-  /* justify-content: center; */
-  /* margin-bottom: 72px; */
   margin-bottom: 44px;
 }
 
@@ -738,7 +733,6 @@ body {
   margin: 0 auto;
   display: flex;
   padding: 8px 16px;
-  /* padding: 16px 32px; */
   border: 1px solid var(--border-bottom-color);
   transition: color var(--transition), background-color var(--transition),
     box-shadow var(--transition), border-color var(--transition);
@@ -764,7 +758,6 @@ body {
 
 .projects-list li {
   width: 100%;
-  /* width: calc((100% - 48px) / 1); */
 }
 
 .projects-overlay {

@@ -241,7 +241,7 @@
     text-align: center;
     gap: 24px;
     justify-content: center;
-    margin-bottom: 76px;
+    margin-bottom: 64px;
   }
 
   .btn {
@@ -409,6 +409,22 @@
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+
+  .portfolio {
+    padding-top: 96px;
+    padding-bottom: 120px;
+  }
+  .page-nav {
+    margin-bottom: 72px;
+  }
+
+  .btn {
+    padding: 16px 32px;
+  }
+
+  .projects-list li {
+    width: calc((100% - 48px) / 3);
   }
 }
 
