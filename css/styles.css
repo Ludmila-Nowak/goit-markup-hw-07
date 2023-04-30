@@ -706,9 +706,7 @@ body {
 }
 
 /*  Filter */
-.navigation {
-  width: 95%;
-}
+
 .page-nav {
   display: flex;
   flex-wrap: wrap;
@@ -732,7 +730,7 @@ body {
   border: none;
   margin: 0 auto;
   display: flex;
-  padding: 8px 16px;
+  padding: 12px 24px;
   border: 1px solid var(--border-bottom-color);
   transition: color var(--transition), background-color var(--transition),
     box-shadow var(--transition), border-color var(--transition);
